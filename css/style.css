@@ -244,6 +244,23 @@ img {
 #reported{
   display: none;
 }
+.questionAns{
+  margin: 10px 20px;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row;
+}
+.questionAns .singleans{
+  margin: 10px 20px;
+  padding: 10px;
+  background-color: aliceblue;
+  border: 2px solid rgba(71, 63, 63, 0.205);
+  
+}
+.questionAns span{
+  
+  font-weight: 700;
+}
 
 @media only screen and (max-width: 992px) {
   #posts {
@@ -254,5 +271,9 @@ img {
 @media only screen and (max-width: 576px) {
   #posts {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .questionAns{
+
+    flex-direction: column;
   }
 }
