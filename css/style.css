@@ -257,8 +257,8 @@ img {
   border: 2px solid rgba(71, 63, 63, 0.205);
   
 }
+/* adding question answer style */
 .questionAns span{
-  
   font-weight: 700;
 }
 
@@ -273,7 +273,6 @@ img {
     grid-template-columns: repeat(1, 1fr);
   }
   .questionAns{
-
     flex-direction: column;
   }
 }
